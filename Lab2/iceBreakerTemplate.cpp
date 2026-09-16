@@ -1,5 +1,9 @@
 #include<iostream>
 #include<fstream>
+#include<vector>
+#include<string>
+#include<cstdlib>
+#include<ctime>
 /**
  * TO DO: 
  * Add <vector>, <cstdlib>, and <ctime>​
@@ -20,6 +24,9 @@ using namespace std;
 //------------------------PROTOTYPE-------------------------------------------
 void promptFile(vector<string> &); 
 void printVec(vector<string>);
+int ranGen();
+void readFile(string, vector<string> &);
+void writeFile(string, vector<string>, vector<string>);
 
 /**
  * @brief randomly returns a number from 0 to 5.
